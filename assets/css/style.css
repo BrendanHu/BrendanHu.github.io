@@ -192,6 +192,26 @@ h6 {
   }
 }
 
+/* -------------------------------------------------------------
+# Resume Download Button
+--------------------------------------------------------------*/
+.resumebtn {
+  background-color: #080b0d;
+  border: 2px solid #15bb62;
+  border-radius: 10px;
+  text-align: center;
+  font-size: large;
+  padding: 15px 32px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: 0.3s;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.resumebtn:hover{opacity: 0.6;}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1000,6 +1020,12 @@ section .container {
   background-color: #18d26e;
 }
 
+.portfolio-details-slider {
+  object-fit: contain;
+}
+.swiper-slide {
+  object-fit: contain;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
